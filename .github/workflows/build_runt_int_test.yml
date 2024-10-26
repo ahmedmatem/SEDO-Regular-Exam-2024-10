@@ -21,4 +21,4 @@ jobs:
     - name: Build
       run: dotnet build --no-restore
     - name: Run Integration tests
-      run: dotnet test SEDO-Regular-Exam-2024-10\HouseRentingSystem.Tests/HouseRentingSystem.Tests.csproj --no-build --verbosity normal
+      run: dotnet test HouseRentingSystem.Tests/HouseRentingSystem.Tests.csproj --no-build --verbosity normal
